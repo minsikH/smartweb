@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/search_m.css">
+</head>
+
+<body>
+    <div class="search_area">
+
+        <div class="top_util_area">
+            <div class="inner">
+                <span class="top_search">
+                    <input type="text" placeholder="검색어를 입력해주세요.">
+                    <a href="javascript:;">
+                        <img src="./img/icon/icon_search.png" alt="검색하기">
+                    </a>
+                </span>
+                <span class="btn_close"><a href="index.html"><img src="./img/icon/icon_close.png" alt="닫기"></a></span>
+            </div>
+        </div>
+
+        <div class="search_word_area">
+            <div class="inner">
+                <p class="title">추천 검색어</p>
+                <ul>
+                    <li><a href="#">그램 360</a></li>
+                    <li><a href="#">Z폴드5</a></li>
+                    <li><a href="#">아이폰 15 Pro</a></li>
+                    <li><a href="#">SurFace Pro</a></li>
+                    <li><a href="#">S23+</a></li>
+                    <li><a href="#">마샬 메이저4</a></li>
+                    <li><a href="#">Alpha A7R</a></li>
+                    <li><a href="#">울트라 탭</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="recent_item_area">
+            <div class="inner">
+                <p class="title">최근 본 상품</p>
+                <ul>
+                    <li>
+                        <a href="sub4.html">
+                            <figure>
+                                <img src="./img/sub3_img/section01/camera_01.png" alt="">
+                            </figure>
+                            <div class="item_info">
+                                <p class="brand">소니</p>
+                                <p class="item">Alpha A7R</p>
+                                <p class="price">3,066,690 원</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sub4.html">
+                            <figure>
+                                <img src="./img/sub3_img/section01/camera_01.png" alt="">
+                            </figure>
+                            <div class="item_info">
+                                <p class="brand">소니</p>
+                                <p class="item">Alpha A7R</p>
+                                <p class="price">3,066,690 원</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sub4.html">
+                            <figure>
+                                <img src="./img/sub3_img/section01/camera_01.png" alt="">
+                            </figure>
+                            <div class="item_info">
+                                <p class="brand">소니</p>
+                                <p class="item">Alpha A7R</p>
+                                <p class="price">3,066,690 원</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sub4.html">
+                            <figure>
+                                <img src="./img/sub3_img/section01/camera_01.png" alt="">
+                            </figure>
+                            <div class="item_info">
+                                <p class="brand">소니</p>
+                                <p class="item">Alpha A7R</p>
+                                <p class="price">3,066,690 원</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <ul class="menu_bar">
+            <li>
+                <a href="index.html">
+                    <img src="./img/icon/icon_home.png" alt="">
+                    <p>홈</p>
+                </a>
+            </li>
+            <li>
+                <a href="search.html">
+                    <img src="./img/icon/icon_search_on.png" alt="">
+                    <p>검색</p>
+                </a>
+            </li>
+            <li>
+                <a href="menu.html">
+                    <img src="./img/icon/icon_menu.png" alt="">
+                    <p>메뉴</p>
+                </a>
+            </li>
+            <li>
+                <a href="heart.html">
+                    <img src="./img/icon/icon_heart.png" alt="">
+                    <p>좋아요</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" id="mypageButton">
+                    <img src="./img/icon/icon_mypage.png" alt="">
+                    <p>마이페이지</p>
+                </a>
+            </li>
+        </ul>
+
+
+
+
+
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-storage.js"></script>
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/setting.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mypageJoin</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/mypageJoin_m.css">
+</head>
+
+<body>
+    <div class="mypageJoin_area">
+
+        <div class="top_util_area">
+            <div class="inner">
+                <span class="top_search">
+                    <input type="text" placeholder="검색어를 입력해주세요.">
+                    <img src="./img/icon/icon_search.png" alt="검색하기">
+                </span>
+                <span class="btn_close"><a href="mypageLogin.html"><img src="./img/icon/icon_close.png" alt="닫기"></a></span>
+            </div>
+        </div>
+
+        
+        <div class="logo_area">
+            <div class="inner">
+                <a href="index.html">
+                    <img src="./img/icon/logo.png" alt="logo">
+                </a>
+            </div>
+        </div>
+
+        <div class="user_area">
+            <div class="inner">
+                <ul>
+                    <li>
+                        <p class="title">이메일 주소</p>
+                        <input type="text" placeholder="예&rpar; geteasy@geteasy.co.kr" id="email_new">
+                    </li>
+                    <li>
+                        <p class="title">비밀번호</p>
+                        <input type="password" placeholder="6자리 이상 입력하세요." id="password_new">
+                    </li>
+                    <li>
+                        <p class="title">닉네임</p>
+                        <input type="text" id="name_new">
+                    </li>
+                </ul>
+                <button type="submit" class="join" id="register">회원가입</button>
+            </div>
+        </div>
+
+
+    
+
+
+
+
+
+
+
+
+        <ul class="menu_bar">
+            <li>
+                <a href="index.html">
+                    <img src="./img/icon/icon_home.png" alt="">
+                    <p>홈</p>
+                </a>
+            </li>
+            <li>
+                <a href="search.html">
+                    <img src="./img/icon/icon_search.png" alt="">
+                    <p>검색</p>
+                </a>
+            </li>
+            <li>
+                <a href="menu.html">
+                    <img src="./img/icon/icon_menu.png" alt="">
+                    <p>메뉴</p>
+                </a>
+            </li>
+            <li>
+                <a href="heart.html">
+                    <img src="./img/icon/icon_heart.png" alt="">
+                    <p>좋아요</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" id="mypageButton">
+                    <img src="./img/icon/icon_mypage_on.png" alt="">
+                    <p>마이페이지</p>
+                </a>
+            </li>
+        </ul>
+
+
+
+
+
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-storage.js"></script>
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/setting.js"></script>
+    <script src="js/heart_m.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

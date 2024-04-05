@@ -1,0 +1,298 @@
+@charset "utf-8";
+@import url(fonts.css);
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@media screen and (max-width: 480px) {
+
+
+    .inner {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .review_area {
+        position: relative;
+    }
+
+    .title {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    /* top_menu_area */
+
+    .top_util_area {
+        padding-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .top_util_area .inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .top_util_area .top_logo a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .top_util_area .top_logo img {
+        width: 90px;
+    }
+
+    .util {
+        display: flex;
+    }
+
+    .util>span>a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .util>span>a>img {
+        display: flex;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        padding: 10px 0 10px 10px;
+    }
+
+
+
+
+    /* heart_item_area */
+    .heart_item_area {
+        margin-bottom: 20px;
+    }
+
+
+    .heart_item_area>li {
+        position: relative;
+        padding: 20px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .heart_item_area>li>.heart_icon {
+        position: absolute;
+        bottom: 20px;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .heart_item_area>li>.heart_icon>img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .heart_item_area>li>a {
+        display: flex;
+        align-items: center;
+    }
+
+    .heart_item_area figure {
+        width: 30%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        margin-right: 16px;
+    }
+
+    .heart_item_area figure>img {
+        width: 70%;
+    }
+
+    .heart_item_area .item_info {
+        width: calc(70% - 16px);
+    }
+
+    .item_info .top_info {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .top_info .brand {
+        font-size: 18;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .top_info .date {
+        font-size: 14px;
+    }
+
+
+
+    .item_info .item {
+        font-size: 16;
+        color: rgba(0, 0, 0, 0.6);
+        margin-bottom: 10px;
+    }
+
+    .item_info .price {
+        font-size: 18;
+        color: #000;
+    }
+
+
+    /* score_area */
+    .score_area {
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+    .score_area > .inner {
+    text-align: center;
+    }
+    .score_area p {
+        font-size: 18px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .rate {
+        display: inline-block;
+        border: 0;
+    }
+
+    .rate>input {
+        display: none;
+    }
+
+    .rate>label {
+        float: right;
+        color: #ddd
+    }
+
+    .rate>label:before {
+        display: inline-block;
+        font-size: 22px;
+        padding: 5px;
+        margin: 0;
+        cursor: pointer;
+        font-family: FontAwesome;
+        content: "\f005 ";
+    }
+
+    .rate .half:before {
+        content: "\f089 ";
+        position: absolute;
+        padding-right: 0;
+    }
+
+    .rate input:checked~label,
+    .rate label:hover,
+    .rate label:hover~label {
+        color: #f73c32 !important;
+    }
+
+    .rate input:checked+.rate label:hover,
+    .rate input input:checked~label:hover,
+    .rate input:checked~.rate label:hover~label,
+    .rate label:hover~input:checked~label {
+        color: #f73c32 !important;
+    }
+
+
+    /* review_text */
+    .review_text {
+        margin-bottom: 100px;
+    }
+
+    .review_text li {
+        margin-bottom: 20px;
+    }
+
+    .review_text .title {
+        font-size: 20px;
+        font-size: 600;
+        margin-bottom: 14px;
+        text-align: left;
+    }
+
+    .review_text input {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 10px;
+        font-size: 16px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .review_text textarea {
+        width: 100%;
+        padding-left: 10px;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.6);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+
+
+
+
+    /* menu_bar */
+    .menu_bar {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+        background: #fff;
+    }
+
+    .menu_bar>li {
+        width: 100%;
+        height: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+    }
+
+    .menu_bar>li>a {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+
+
+    .menu_bar>li>a>span {
+        font-size: 16px;
+    }
+
+    .menu_bar>li:first-child>a {
+        background: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+
+
+    .menu_bar>li:last-child>button {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        background: #000;
+        color: #fff;
+        border: none;
+    }
+}
